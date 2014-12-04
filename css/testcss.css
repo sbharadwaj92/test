@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+}
+
+#topbar {
+	background: #242930;
+	border-style:none;
+	border-radius:0px;
+}
+#toplogo {
+	max-height: 46px;
+	margin-top:-13px;
+}
+
+.heroimg {
+	background-size: cover;
+	width: 100%;
+}
+
+.head{
+	 margin-left: -20px;
+    margin-top: 31%;
+	
+	
+}
+.head h1 {
+	width:100%;
+ color: hsl(0, 0%, 100%);
+    font-size: 34px;
+	 font-weight: lighter;
+	  line-height: 40px;
+	   font-family: "GothamMedium";
+}
+.head span {
+	width:100%;
+font-size:22px;
+color: hsl(0, 0%, 100%);
+ font-weight: 700;
+  font-family: "GothamMedium";
+}
+.head p {
+	 color: hsl(0, 0%, 100%);
+    font-size: 18px;
+	line-height:20px;
+	 font-family: "GothamMedium";
+	
+}
+#backgroung-img{
+position: relative;
+  height: 100%;
+  background-image:url("images/x-hero.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+ 
+  color: #242930;
+   width:100%;
+    min-height:100%;
+
+}
+
+
+#backgroung-img .callToAction {
+    display: inline-block;
+   padding-left: 0px;
+   margin-top:15px;
+     }
+#backgroung-img .callToAction li{ display:inline;border-radius: 50px;
+    padding: 13px 24px;
+font-size: 16px;
+    line-height: 54px;
+    margin-top: 12px;
+    box-shadow: inset 0 0 0 2px #FFF;
+    opacity: 0.8;
+    color: #fff;
+    -webkit-transition: all 0.382s;
+    -moz-transition: all 0.382s;
+    -ms-transition: all 0.382s;
+    -o-transition: all 0.382s;
+    transition: all 0.382s;
+	margin-right: 5px;
+	 font-family: "GothamMedium";
+	}
+
+	 @media (min-width:1px) and (max-width: 671px) {
+		 #backgroung-img .callToAction li
+		 {
+			  width:100% !important; float:left;line-height: 28px !important;text-align: center;
+		 }
+		 }
+    #backgroung-img .callToAction li:hover {
+      box-shadow: inset 0 0 0 40px #FFF;
+      color: #232323; }
+	  .img-arrow{
+		  margin:0 auto;
+		  display:block;
+	  }
+
